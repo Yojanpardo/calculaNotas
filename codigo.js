@@ -1,8 +1,19 @@
-var nota=prompt("ingrese la primera nota");
-var nota1=prompt("ingrese la segunda nota");
-nota1=Number(nota1);
-nota=Number(nota);
-var total= (nota+nota1)/2
+var numero=prompt("ingrese la cantidad de notas");
+numero = Number (numero);
+var n=0;
+var sumatoria = 0;
+while(n < numero)
+	{	
+		var nota=prompt("ingrese la nota");
+		nota = Number(nota);
+		sumatoria = sumatoria+nota;
+		promedio = sumatoria/numero
+		alert("tu nota es " + promedio);
+		n++
+	}
 
-alert("tu nota es " + total);
+
+
+
+
 
